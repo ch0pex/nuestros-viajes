@@ -1,0 +1,171 @@
+[
+  {
+    "slug": "roma-napoles",
+    "title": "Viaje a Roma y Nápoles",
+    "location": "Roma y Nápoles, Italia",
+    "shortDescription": "La ciudad eterna y la cuna de la pizza en una sola aventura.",
+    "paragraphs": [
+      "Aquí irán las anécdotas reales del viaje a Roma y Nápoles. Por ejemplo: aquella vez que nos perdimos buscando la Fontana di Trevi y acabamos cenando en la mejor trattoria del barrio.",
+      "Segundo párrafo con más curiosidades: la pizza napolitana de verdad, la moneda que tiramos a la fuente pidiendo volver, y el caos maravilloso de Nápoles."
+    ],
+    "price": "∞ €",
+    "duration": "7 días",
+    "rating": 5.0,
+    "reviews": "2 recien enamorados",
+    "cover": "https://picsum.photos/seed/roma-napoles-cover/800/600",
+    "album": [
+      "https://picsum.photos/seed/roma-napoles-1/1200/800",
+      "https://picsum.photos/seed/roma-napoles-2/1200/800",
+      "https://picsum.photos/seed/roma-napoles-3/1200/800",
+      "https://picsum.photos/seed/roma-napoles-4/1200/800",
+      "https://picsum.photos/seed/roma-napoles-5/1200/800",
+      "https://picsum.photos/seed/roma-napoles-6/1200/800"
+    ]
+  },
+  {
+    "slug": "munich-praga",
+    "title": "Viaje a Múnich y Praga",
+    "location": "Múnich y Praga",
+    "shortDescription": "Cervezas bávaras, castillos y el encanto del puente de Carlos.",
+    "paragraphs": [
+      "Aquí irán las anécdotas reales del viaje a Múnich y Praga. Las jarras de litro que pesaban más que la mochila, y el reloj astronómico que esperamos a que diera la hora.",
+      "Más recuerdos: el paseo por el puente de Carlos al atardecer y aquel goulash que repetimos dos días seguidos."
+    ],
+    "price": "∞ €",
+    "duration": "7 días",
+    "rating": 5.0,
+    "reviews": "2 viajeros enamorados",
+    "cover": "https://picsum.photos/seed/munich-praga-cover/800/600",
+    "album": [
+      "https://picsum.photos/seed/munich-praga-1/1200/800",
+      "https://picsum.photos/seed/munich-praga-2/1200/800",
+      "https://picsum.photos/seed/munich-praga-3/1200/800",
+      "https://picsum.photos/seed/munich-praga-4/1200/800",
+      "https://picsum.photos/seed/munich-praga-5/1200/800"
+    ]
+  },
+  {
+    "slug": "barcelona-andorra",
+    "title": "Escapada a Barcelona y Andorra",
+    "location": "Barcelona y Andorra",
+    "shortDescription": "Del mar Mediterráneo a los Pirineos en un mismo viaje.",
+    "paragraphs": [
+      "Aquí irán las anécdotas reales de la escapada a Barcelona y Andorra. La Sagrada Familia, las Ramblas y ese cambio radical de la playa a la montaña.",
+      "Más recuerdos: las compras en Andorra y las vistas desde arriba que no salían bien en ninguna foto (pero lo intentamos igual)."
+    ],
+    "price": "∞ €",
+    "duration": "3 días",
+    "rating": 5.0,
+    "reviews": "2 viajeros enamorados",
+    "cover": "https://picsum.photos/seed/barcelona-andorra-cover/800/600",
+    "album": [
+      "https://picsum.photos/seed/barcelona-andorra-1/1200/800",
+      "https://picsum.photos/seed/barcelona-andorra-2/1200/800",
+      "https://picsum.photos/seed/barcelona-andorra-3/1200/800",
+      "https://picsum.photos/seed/barcelona-andorra-4/1200/800"
+    ]
+  },
+  {
+    "slug": "tenerife",
+    "title": "Viaje a Tenerife",
+    "location": "Tenerife, Islas Canarias",
+    "shortDescription": "El Teide, playas negras y el mejor clima del mundo.",
+    "paragraphs": [
+      "Aquí irán las anécdotas reales del viaje a Tenerife. La subida al Teide, las playas de arena negra y los plátanos que saben distinto (mejor).",
+      "Más recuerdos: los papas arrugadas con mojo picón y aquella puesta de sol sobre el mar de nubes."
+    ],
+    "price": "∞ €",
+    "duration": "7 días",
+    "rating": 5.0,
+    "reviews": "2 viajeros enamorados",
+    "cover": "https://picsum.photos/seed/tenerife-cover/800/600",
+    "album": [
+      "https://picsum.photos/seed/tenerife-1/1200/800",
+      "https://picsum.photos/seed/tenerife-2/1200/800",
+      "https://picsum.photos/seed/tenerife-3/1200/800",
+      "https://picsum.photos/seed/tenerife-4/1200/800",
+      "https://picsum.photos/seed/tenerife-5/1200/800"
+    ]
+  },
+  {
+    "slug": "budapest",
+    "title": "Escapada a Budapest",
+    "location": "Budapest, Hungría",
+    "shortDescription": "Balnearios, el Danubio y la ciudad más bonita de noche.",
+    "paragraphs": [
+      "Aquí irán las anécdotas reales del viaje a Budapest. El baño en los balnearios de Széchenyi y el Parlamento iluminado desde el puente de las Cadenas.",
+      "Más recuerdos: el paseo por el bastión de los Pescadores y aquel ruin bar que encontramos de casualidad."
+    ],
+    "price": "∞ €",
+    "duration": "4 días",
+    "rating": 5.0,
+    "reviews": "2 viajeros enamorados",
+    "cover": "https://picsum.photos/seed/budapest-cover/800/600",
+    "album": [
+      "https://picsum.photos/seed/budapest-1/1200/800",
+      "https://picsum.photos/seed/budapest-2/1200/800",
+      "https://picsum.photos/seed/budapest-3/1200/800",
+      "https://picsum.photos/seed/budapest-4/1200/800"
+    ]
+  },
+  {
+    "slug": "cadiz",
+    "title": "Viaje a Cádiz",
+    "location": "Cádiz, Andalucía",
+    "shortDescription": "Playas infinitas, pescaíto frito y la luz del sur.",
+    "paragraphs": [
+      "Aquí irán las anécdotas reales del viaje a Cádiz. Los atardeceres en la Caleta y el pescaíto frito que nos supo a gloria.",
+      "Más recuerdos: el paseo por el casco antiguo, las tortillitas de camarones y esa manera de hablar que se nos pegó una semana."
+    ],
+    "price": "∞ €",
+    "duration": "7 días",
+    "rating": 5.0,
+    "reviews": "2 viajeros enamorados",
+    "cover": "https://picsum.photos/seed/cadiz-cover/800/600",
+    "album": [
+      "https://picsum.photos/seed/cadiz-1/1200/800",
+      "https://picsum.photos/seed/cadiz-2/1200/800",
+      "https://picsum.photos/seed/cadiz-3/1200/800",
+      "https://picsum.photos/seed/cadiz-4/1200/800"
+    ]
+  },
+  {
+    "slug": "londres",
+    "title": "Viaje a Londres",
+    "location": "Londres, Reino Unido",
+    "shortDescription": "Big Ben, mercados, museos y algún que otro chaparrón.",
+    "paragraphs": [
+      "Aquí irán las anécdotas reales del viaje a Londres. El cambio de guardia que casi no vemos y el fish and chips bajo la lluvia.",
+      "Más recuerdos: Camden Market, la foto obligada en la cabina roja y el metro que cogimos en dirección contraria (dos veces)."
+    ],
+    "price": "∞ €",
+    "duration": "4 días",
+    "rating": 5.0,
+    "reviews": "2 viajeros enamorados",
+    "cover": "https://picsum.photos/seed/londres-cover/800/600",
+    "album": [
+      "https://picsum.photos/seed/londres-1/1200/800",
+      "https://picsum.photos/seed/londres-2/1200/800",
+      "https://picsum.photos/seed/londres-3/1200/800",
+      "https://picsum.photos/seed/londres-4/1200/800"
+    ]
+  },
+  {
+    "slug": "buceo-lanzarote",
+    "title": "Escapada submarina en Lanzarote :)",
+    "location": "Lanzarote, Islas Canarias",
+    "shortDescription": "Una nueva aventura bajo el mar... y esta vez es de verdad.",
+    "paragraphs": [
+      "Todas las experiencias de esta página ya las hemos vivido juntos.",
+      "Esta es la única que todavía no: descubrir juntos el fondo del Atlántico con Pura Vida Diving, con sus peces, sus volcanes sumergidos y (con suerte) algún angelote.",
+      "No hace falta reservar. Ya está reservada. 🤿"
+    ],
+    "price": "0 €",
+    "duration": "Próximamente",
+    "rating": 5.0,
+    "reviews": "Aún sin reseñas... por poco tiempo",
+    "isReveal": true,
+    "revealMessage": "Después de tantos viajes que valen infinito, toca estrenar uno nuevo: te regalo un bautismo de buceo en Lanzarote. Tú y yo, bajo el mar. Te quiero. 💙",
+    "externalUrl": "https://puravidalanzarotediving.com"
+  }
+]
