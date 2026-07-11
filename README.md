@@ -23,9 +23,12 @@ Abre http://localhost:5173
    - Si la carpeta está vacía, se usan los campos opcionales `cover`/`album` del JSON (así funcionan los placeholders actuales).
 4. La experiencia de buceo (`isReveal: true`) debe ser siempre la **última** del array. Su `revealMessage` es el mensaje que aparece al pulsar "Reservar próxima aventura" (con confeti 🎉), y `externalUrl` es el enlace real (Pura Vida Diving).
 
-## Desplegar en GitHub Pages (cuando toque)
+## Despliegue en GitHub Pages
 
-1. En `vite.config.js` añade `base: '/<nombre-del-repo>/'`.
-2. `npm run build` y publica la carpeta `dist/` (o usa GitHub Actions).
-3. Para que las rutas funcionen al recargar, copia `dist/index.html` como `dist/404.html`.
+Automático: cada `git push` a `main` compila y publica la web (workflow en `.github/workflows/deploy.yml`).
+
+Configuración inicial (una sola vez):
+1. Crea el repo en github.com (público) y haz el primer push.
+2. En el repo: **Settings → Pages → Source: "GitHub Actions"**.
+3. En un par de minutos la web estará en `https://<usuario>.github.io/<repo>/`.
 # nuestros-viajes
