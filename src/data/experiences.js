@@ -29,10 +29,13 @@ import { getPhotos } from './photos.js'
 
 export const experiences = experiencesData.map((exp) => {
   const photos = getPhotos(exp.slug)
+  const hasLocal = photos?.album?.length > 0 || photos?.cover
   return {
     ...exp,
     cover: photos?.cover ?? exp.cover,
-    album: photos?.album?.length ? photos.album : (exp.album ?? []),
+    coverThumb: photos?.coverThumb ?? photos?.cover ?? exp.cover,
+    album: hasLocal ? (photos.album ?? []) : (exp.album ?? []),
+    albumThumbs: hasLocal ? (photos.albumThumbs ?? []) : (exp.album ?? []),
   }
 })
 

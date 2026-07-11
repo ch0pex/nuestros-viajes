@@ -251,9 +251,14 @@ button {
 .card-photo {
   width: 320px;
   flex-shrink: 0;
+  position: relative;
 }
 
+/* Absoluta para que la foto no marque la altura de la tarjeta:
+   manda el texto y la imagen se recorta al hueco (clave con fotos verticales) */
 .card-photo img {
+  position: absolute;
+  inset: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -331,6 +336,7 @@ button {
   margin-top: 20px;
   border-radius: var(--radius);
   overflow: hidden;
+  aspect-ratio: 21 / 9;
   max-height: 440px;
 }
 

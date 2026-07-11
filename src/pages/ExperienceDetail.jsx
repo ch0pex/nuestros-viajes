@@ -30,6 +30,7 @@ export default function ExperienceDetail() {
     reviews,
     cover,
     album,
+    albumThumbs,
     isReveal,
     revealMessage,
     externalUrl,
@@ -91,7 +92,7 @@ export default function ExperienceDetail() {
           <div className="album-grid">
             {album.map((photo, i) => (
               <button key={photo} className="album-item" onClick={() => setLightboxIndex(i)}>
-                <img src={photo} alt={`${title} — foto ${i + 1}`} loading="lazy" />
+                <img src={albumThumbs[i] ?? photo} alt={`${title} — foto ${i + 1}`} loading="lazy" decoding="async" />
               </button>
             ))}
           </div>

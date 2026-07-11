@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import Rating from './Rating.jsx'
 
 export default function ExperienceCard({ experience }) {
-  const { slug, title, location, shortDescription, paragraphs, price, duration, rating, reviews, cover, isReveal } =
+  const { slug, title, location, shortDescription, paragraphs, price, duration, rating, reviews, coverThumb, isReveal } =
     experience
 
   return (
@@ -30,7 +30,7 @@ export default function ExperienceCard({ experience }) {
         </div>
       </div>
       <div className="card-photo">
-        <img src={cover} alt={title} loading="lazy" />
+        <img src={coverThumb} alt={title} loading="lazy" decoding="async" />
       </div>
     </Link>
   )
