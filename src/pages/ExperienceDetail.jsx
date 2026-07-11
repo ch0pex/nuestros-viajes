@@ -55,8 +55,7 @@ export default function ExperienceDetail() {
       </div>
 
       <div className="detail-cover">
-        <img className="detail-cover-bg" src={cover} alt="" aria-hidden="true" />
-        <img className="detail-cover-main" src={cover} alt={title} />
+        <img src={cover} alt={title} style={{ objectPosition: experience.coverPosition ?? 'center' }} />
       </div>
 
       <div className="detail-layout">

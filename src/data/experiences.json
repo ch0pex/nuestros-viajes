@@ -11,7 +11,8 @@
     "price": "∞ €",
     "duration": "7 días",
     "rating": 5.0,
-    "reviews": "2 recién enamorados"
+    "reviews": "2 recién enamorados",
+    "coverPosition": "center 30%"
   },
   {
     "slug": "granada",
@@ -39,7 +40,8 @@
     "price": "∞ €",
     "duration": "7 días",
     "rating": 5.0,
-    "reviews": "2 viajeros enamorados"
+    "reviews": "2 viajeros enamorados",
+    "coverPosition": "center 32%"
   },
   {
     "slug": "barcelona-andorra",
@@ -81,7 +83,8 @@
     "price": "∞ €",
     "duration": "4 días",
     "rating": 5.0,
-    "reviews": "2 viajeros enamorados"
+    "reviews": "2 viajeros enamorados",
+    "coverPosition": "center 25%"
   },
   {
     "slug": "cadiz",
@@ -115,10 +118,10 @@
     "slug": "buceo-lanzarote",
     "title": "Escapada submarina en Lanzarote 🤿",
     "location": "Lanzarote, Islas Canarias",
-    "shortDescription": "Una nueva aventura... ahora tambien bajo el mar :)",
+    "shortDescription": "Una nueva aventura... ahora también bajo el mar :)",
     "paragraphs": [
-      "Todas las experiencias de esta página ya las hemos vivido juntos. Y para esta aventura que viene queria darle algo unico...",
-      "Estate lista, si eres lo suficiente valiente (en vd yo soy mas cagao) tendremos la oportunidad de bucear una mañana de la mano de un profesional que nos enseñara todo lo necesario para no ahogarnos ;)"
+      "Todas las experiencias de esta página ya las hemos vivido juntos. Y para esta aventura que viene quería darle algo único...",
+      "Estate lista, si eres lo suficiente valiente (en vd yo soy más cagao) tendremos la oportunidad de bucear una mañana de la mano de un profesional que nos enseñará todo lo necesario para no ahogarnos ;)"
     ],
     "price": "0 €",
     "duration": "Próximamente",

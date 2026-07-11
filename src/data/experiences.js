@@ -20,6 +20,9 @@
  *   rating            número, ej. 5.0
  *   reviews           texto de las reseñas, ej. "2 viajeros enamorados"
  *   cover / album     (opcional) URLs de respaldo si no hay fotos en la carpeta
+ *   coverPosition     (opcional) encuadre de la portada en la página de detalle:
+ *                     "center" (por defecto), "center 25%" (sube el encuadre,
+ *                     0% = borde superior de la foto), "center 75%" (lo baja)...
  *   isReveal          true SOLO en la experiencia sorpresa (la última del array)
  *   revealMessage     (solo sorpresa) mensaje al pulsar "Reservar"
  *   externalUrl       (opcional, solo sorpresa) web real de la experiencia

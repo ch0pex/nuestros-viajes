@@ -332,10 +332,7 @@ button {
   flex-wrap: wrap;
 }
 
-/* La foto se muestra ENTERA (contain) sobre un fondo difuminado de sí misma:
-   así ninguna portada sale cortada, sea vertical o panorámica */
 .detail-cover {
-  position: relative;
   margin-top: 20px;
   border-radius: var(--radius);
   overflow: hidden;
@@ -343,21 +340,11 @@ button {
   max-height: 440px;
 }
 
-.detail-cover-bg {
-  position: absolute;
-  inset: 0;
+/* El encuadre se ajusta por viaje con "coverPosition" en experiences.json */
+.detail-cover img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  filter: blur(24px) saturate(1.15) brightness(0.9);
-  transform: scale(1.15);
-}
-
-.detail-cover-main {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
 }
 
 .detail-layout {
