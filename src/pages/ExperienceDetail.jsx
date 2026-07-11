@@ -55,7 +55,8 @@ export default function ExperienceDetail() {
       </div>
 
       <div className="detail-cover">
-        <img src={cover} alt={title} />
+        <img className="detail-cover-bg" src={cover} alt="" aria-hidden="true" />
+        <img className="detail-cover-main" src={cover} alt={title} />
       </div>
 
       <div className="detail-layout">

@@ -332,7 +332,10 @@ button {
   flex-wrap: wrap;
 }
 
+/* La foto se muestra ENTERA (contain) sobre un fondo difuminado de sí misma:
+   así ninguna portada sale cortada, sea vertical o panorámica */
 .detail-cover {
+  position: relative;
   margin-top: 20px;
   border-radius: var(--radius);
   overflow: hidden;
@@ -340,10 +343,21 @@ button {
   max-height: 440px;
 }
 
-.detail-cover img {
+.detail-cover-bg {
+  position: absolute;
+  inset: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
+  filter: blur(24px) saturate(1.15) brightness(0.9);
+  transform: scale(1.15);
+}
+
+.detail-cover-main {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .detail-layout {
@@ -476,17 +490,20 @@ button {
 }
 
 /* ---------- Álbum ---------- */
+/* Mosaico: cada foto mantiene su proporción, sin recortes */
 .album-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
+  columns: 3 200px;
+  column-gap: 10px;
 }
 
 .album-item {
+  display: block;
+  width: 100%;
   padding: 0;
+  margin-bottom: 10px;
   border-radius: 10px;
   overflow: hidden;
-  aspect-ratio: 4 / 3;
+  break-inside: avoid;
   transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
 
@@ -496,9 +513,9 @@ button {
 }
 
 .album-item img {
+  display: block;
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: auto;
 }
 
 /* ---------- Lightbox ---------- */
@@ -622,7 +639,7 @@ button {
   }
 
   .album-grid {
-    grid-template-columns: repeat(2, 1fr);
+    columns: 2 140px;
   }
 
   .hero h1 {
